@@ -14,6 +14,7 @@ namespace CityInfo.API
 		// This method gets called by the runtime. Use this method to add services
 		public void ConfigureServices(IServiceCollection services)
 		{
+			services.AddMvc();
 		}
 
 		// This method gets called by the runtime. Use this method to configure 
@@ -29,11 +30,7 @@ namespace CityInfo.API
 				app.UseExceptionHandler("/error");
 			}
 
-			app.Run((context) =>
-			{
-				// await context.Response.WriteAsync("Hello World!");
-				throw new Exception("Example exception");
-			});
+			app.UseMvc();
 		}
 	}
 }
