@@ -50,5 +50,5 @@
 	// "postCreateCommand": "dotnet restore",
 
 	// Comment out to connect as root user. See https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode"
+	//"remoteUser": "vscode"
 }
