@@ -44,11 +44,12 @@
 	"remoteEnv": {
 		// "ASPNETCORE_Kestrel__Certificates__Default__Password": "SecurePwdGoesHere",
 		// "ASPNETCORE_Kestrel__Certificates__Default__Path": "/home/vscode/.aspnet/https/aspnetapp.pfx",
+		"ASPNETCORE_URLS": "http://+:5000"
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "dotnet restore",
 
 	// Comment out to connect as root user. See https://aka.ms/vscode-remote/containers/non-root.
-	//"remoteUser": "vscode"
+	"remoteUser": "vscode"
 }
